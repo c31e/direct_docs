@@ -1,0 +1,35 @@
+<!DOCTYPE HTML>
+
+<head>
+        <meta charset="UTF-8">
+
+
+    
+        <title>Direct Docs</title>
+        <link rel="stylesheet" type="text/css" href = "CSS_Sheets/dataBase.css"/>
+</head>
+<body  onload="populateCustomers()">
+    <br>
+    <center>
+        <div class = "dataBase">
+                <div id="bloc1"> <a href="mainMenu.html"id="link">Back</a></div>  
+                <div id="bloc2"><a onclick="populateCustomers()" id="link" href="#">Refresh</a></div>
+            <h1> Customer Panel </h1>
+            <table id="customerTable">
+                <tr>
+                        <th> Customer Name </th>
+                    <th> Main Contact </th>
+                    <th> Phone </th>
+                    <th> Email </th>
+                    <th> # of Invoices </th>
+                    <th> YTD Income </th>
+                </tr>
+           
+            </table>
+        </div>
+    </center>
+
+    <script src="main.js"></script> 
+    <script src="database.js"></script>
+ 
+</body>

@@ -1,0 +1,58 @@
+
+html {
+	height: 100%;
+}
+
+body {
+	
+	height: 100%;
+	margin: auto;
+	background-repeat: no-repeat;
+    background-image: linear-gradient(to bottom right, #ffcd70 , #bfd6d2);
+    background-attachment: scroll;
+}
+
+/* Start of the Database class */
+
+.dataBase {
+    height: 100%;  
+    font-family: Arial;
+    background-color: #dfdfdf;
+    width: 90%;
+    border: 4px solid black;
+    border-radius: 25px;
+}
+
+
+
+
+#block_container
+{
+    text-align:center;
+}
+#bloc1, #bloc2
+{
+    display:inline;
+}
+#bloc2{
+    float: right;
+    padding: 10px;
+}
+#bloc1{
+    padding: 10px;
+    float: left;
+
+}
+table { border-collapse: collapse; }
+tr { border: none; }
+td {
+  border-right: solid 1px #f00; 
+  border-left: solid 1px #f00;
+  padding: 0 10px 0 10px;
+}
+th{
+
+    border-right: solid 1px #f00; 
+    border-left: solid 1px #f00;
+    padding: 0 10px 0 10px;
+}

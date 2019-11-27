@@ -1,0 +1,30 @@
+{
+  "name": "directdocs",
+  "version": "0.0.1",
+  "description": "A documentation program for Software Engineering",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": "https://github.com/electron/electron-quick-start",
+  "keywords": [
+    "Document",
+    "School"
+  ],
+  "author": "Fernando Batista",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "@babel/core": "^7.7.4",
+    "@babel/preset-env": "^7.7.4",
+    "electron": "^7.1.1",
+    "electron-rebuild": "^1.8.8"
+  },
+  "dependencies": {
+    "babelify": "^10.0.0",
+    "electron-db": "^0.15.2",
+    "electron-store": "^5.1.0",
+    "mssql": "^6.0.1",
+    "mysql": "file:node_modules/mysql",
+    "ramda": "^0.26.1"
+  }
+}

@@ -1,0 +1,64 @@
+/*Copied from mainStyle */
+html {
+	height: 100%;
+}
+
+body {
+	
+	height: 100%;
+	margin: auto;
+	background-repeat: no-repeat;
+    background-image: linear-gradient(to bottom right, #ffcd70 , #bfd6d2);
+    background-attachment: scroll;
+}
+
+/*Start of the menu css */
+
+.mainMenu {
+    height: 100%;  
+    font-family: Arial;
+    background-color: #dfdfdf;
+    width: 90%;
+    border: 4px solid black;
+    border-radius: 25px;
+}
+#name{
+	margin: auto;
+font-size: 30px;
+
+
+
+}
+
+#block_container
+{
+    text-align:center;
+}
+#bloc1, #bloc2
+{
+    display:inline;
+}
+
+#link{
+	padding:10px;
+	float: left;
+}
+
+ img {
+	width: 15%;
+	height: auto;
+}
+
+button {
+	background-image: linear-gradient(to bottom, rgb(110, 189, 241), #aaaaaa);
+    color: black;
+    font-size: 30px;
+	padding: 14px 20px;
+	margin: 8px 0;
+	border: 3px solid black;    
+	cursor: pointer;
+	width: 80%;	
+}
+button:hover {
+	opacity: 0.8;
+}

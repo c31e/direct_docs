@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+            <meta charset="UTF-8">
+        
+            <title>Direct Docs</title>
+        
+            <link rel="stylesheet" type="text/css" href = "CSS_Sheets/dataBase.css"/>
+    </head>
+    <body  onload="populateSuppliers()">
+        <br>
+        <center>
+            <div class = "dataBase">
+                    <div id="bloc1"> <a href="mainMenu.html"id="link">Back</a></div>  
+                    <div id="bloc2"><a onclick="populateSuppliers()" id="link" href="#">Refresh</a></div>
+                <h1> Suppier Panel </h1>
+                <table id="supplierTable">
+                    <tr>
+                        <th> Company Name </th>
+                        <th> Main Contact </th>
+                        <th> Phone </th>
+                        <th> Email </th>
+                        <th> # of Invoices </th>
+                        <th> YTD Income </th>
+                    </tr>
+                </table>
+            </div>
+        </center>
+
+        <script src="main.js"></script> 
+        <script src="database.js"></script>
+    </body>
+</html>
