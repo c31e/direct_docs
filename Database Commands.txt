@@ -1,0 +1,17 @@
+Here is how we made the tables
+
+CREATE TABLE users ([id] int not null identity,[email] nvarchar(255),[name] nvarchar(255),[password] nvarchar(255),PRIMARY KEY( [id] ));
+
+CREATE TABLE customer ([id] int not null identity,[name] nvarchar(255),	[contact] nvarchar(255),[phone] nvarchar(255),[email] nvarchar(255),[invoicecount] nvarchar(255),	[income] nvarchar(255),PRIMARY KEY( [id] ));
+
+CREATE TABLE supplier ([id] int not null identity,[name] nvarchar(255),	[contact] nvarchar(255),[phone] nvarchar(255),[email] nvarchar(255),[invoicecount] nvarchar(255),	[income] nvarchar(255),PRIMARY KEY( [id] ));
+
+CREATE TABLE orders ([id] int not null identity,[orderID] nvarchar(255),[type] nvarchar(255),[duedate] nvarchar(255),[expenses] nvarchar(255),[description] nvarchar(255));
+
+if we want to insert into these tables we can run commands like:
+
+insert into orders values('00001','supplier','12/09/19','$12,774','Add adobe software to custom OS Image');
+
+insert into supplier values('Home Depot','Pete Howa', '744-773-7722','home@depot.com','2','$76,837');
+
+insert into users values('test@mail.com','Codey Philip','pass');
